@@ -1,0 +1,1 @@
+para actualizar el repocitorio, despues de editarlo, tenemos que guardamos, colocamos git add y el nombre del archivo, despues git commit, ahi se pone el nombre; ctrl o, enter, ctrl x. Despues de eso colocamos git push, nuestro nomdre de usuario y contraseña.
