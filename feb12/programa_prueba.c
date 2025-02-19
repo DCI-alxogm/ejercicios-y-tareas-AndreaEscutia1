@@ -25,7 +25,7 @@ scanf("%f", &temperatura);
 
 printf("tu edad es: %i\n", edad);
 printf("tu ultimo registro de temperatura fue: %f\n", temperatura);
-printf("pues bien %s de %i años y que amanecio con una temperatura de %f gracias por conversar conmigo.\n", nombre, edad temperatura); 
+printf("pues bien %s de %i años y que amanecio con una temperatura de %f gracias por hablar conmigo.\n", nombre, edad, temperatura);
 exit(0);
 }
 
