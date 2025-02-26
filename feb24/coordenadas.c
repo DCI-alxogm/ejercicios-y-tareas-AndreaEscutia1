@@ -22,6 +22,7 @@ phi=acos(z/re); //angulo respecto a z
 rc=sqrt(x*x + y*y); //radio cilindrico
 theta=atan(y/x);
 z=z;
+
 //salida
 //resultados esfericos n
 printf("coordenadas esfericas son re= %f ,theta= %f , phi= %f \n",re,theta,phi);

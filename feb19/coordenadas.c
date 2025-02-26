@@ -25,11 +25,6 @@ rc = sqrt(x*x + y*y); //radio cilindrico
 //tetha ya se calculo
 printf("resultados \n");
 //resultados esfericos 
-printf("coordenadas esfericas:\n");
-printf("%f%f%f\n", re, tetha, phi);
-//resultados cilindricos
-printf("coordenadas cilindricas");
-printf("%f%f%f\n", rc, tetha, z);
-exit(0);
+
 }
 
