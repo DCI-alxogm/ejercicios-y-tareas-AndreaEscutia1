@@ -18,7 +18,7 @@ sanf("%f", opcion);
 switch(opcion){
 case 1:
 printf("ingrese la base y la altura del rectangulo: ");
-scanf("%f %d", &base, altura);
+scanf("%f %f", &base, &altura);
 area =base*altura;
 printf("El area del rectangulo es:%f\n", area);
 break;
@@ -26,12 +26,12 @@ case 2:
 printf("ingrese la temperatura de grados celcius: ");
 scanf("%f", &TC);
 TF =(TC*9/5)+32
-printf("La temperatura en Fahrenheit es: %2.d\n", TF);
+printf("La temperatura en Fahrenheit es: %2.f\n", TF);
 break;
 case 3:
 printf("ingrese dos numeros: ");
-scanf("%f%F", &numero, digito);
-if(numero % digito = 0){
+scanf("%f%f", &numero, digito);
+if(numero % digito == 0){
 printf("%d es multiplo de %d.\n", numero, digito);
 }else if{
 printf("%d no es multiplo de %d.\n", numero, digito);
