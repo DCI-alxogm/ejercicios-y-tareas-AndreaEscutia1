@@ -2,23 +2,25 @@
 #include<stdlib.h>
 
 int main(){
-File *parabola_a;
-int i,n=15
-float Lim_inf, Lim_sup, delta, x, f(x);
+FILE*fp;
+FILE *parabola_a;
+int i, n=15;
+float Lim_inf, Lim_sup, delta, x[n], y[n];
 
 parabola_a=fopen("test.txt","r");
 
-fscanf(FILE,"%d",&n);
-fscanf(FILE,"%f", &Lim_inf);
-fsanf(FILE,"%f", &Lim_sup);
+fscanf(parabola_a,"%d",&n);
+fscanf(parabola_a,"%f", &Lim_inf);
+fscanf(parabola_a,"%f", &Lim_sup);
+fclose(parabola_a);
 
 delta=(Lim_sup - Lim_inf)/(n-1);
-
-FILE=fopen("parabola.txt","w");
-
 x=Lim_inf + 1 * delta;
-f(x)=x*x+1;
-fprintf(parabola_a,"f(%.2f)=%.2f\n",x,f(x)); 
-fclose(parabola_a);
+y[i]=x[i]*x[i]+1;
+
+fp=fopen("parabola.txt","w");
+fprintf(fp,"f(%.2f)=%.2f\n",x[i],y[i]); 
+fclose(fp);
+
 return (0);
 }
